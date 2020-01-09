@@ -3,9 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreOOPRepoPattern", "AspNetCoreOOPRepoPattern\AspNetCoreOOPRepoPattern.csproj", "{A5F7B785-C549-4EC7-B38F-58019F519507}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreOOPRepoP.API", "AspNetCoreOOPRepoPattern\AspNetCoreOOPRepoP.API.csproj", "{A5F7B785-C549-4EC7-B38F-58019F519507}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreOOPRepoPattern.Data", "AspNetCoreOOPRepoPattern.Data\AspNetCoreOOPRepoPattern.Data.csproj", "{3B88748C-E69D-498B-9FD6-12BBB2CCD73F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AspNetCoreOOPRepoPattern.Data", "AspNetCoreOOPRepoPattern.Data\AspNetCoreOOPRepoPattern.Data.csproj", "{3B88748C-E69D-498B-9FD6-12BBB2CCD73F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreOOPRepoP.Helpers", "AspNetCoreOOPRepoP.Helpers\AspNetCoreOOPRepoP.Helpers.csproj", "{ECD8954E-B32B-4928-88AA-F1F765807B39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreOOPRepoP.Repository", "AspNetCoreOOPRepoP.Repository\AspNetCoreOOPRepoP.Repository.csproj", "{A59EAFD1-B2B1-46A3-979A-C36457E7CA89}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetCoreOOPRepoP.Services", "AspNetCoreOOPRepoP\AspNetCoreOOPRepoP.Services.csproj", "{8CC91B15-791F-49FC-AB53-9D225925DB2C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +27,18 @@ Global
 		{3B88748C-E69D-498B-9FD6-12BBB2CCD73F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B88748C-E69D-498B-9FD6-12BBB2CCD73F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B88748C-E69D-498B-9FD6-12BBB2CCD73F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ECD8954E-B32B-4928-88AA-F1F765807B39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ECD8954E-B32B-4928-88AA-F1F765807B39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ECD8954E-B32B-4928-88AA-F1F765807B39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ECD8954E-B32B-4928-88AA-F1F765807B39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A59EAFD1-B2B1-46A3-979A-C36457E7CA89}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A59EAFD1-B2B1-46A3-979A-C36457E7CA89}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A59EAFD1-B2B1-46A3-979A-C36457E7CA89}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A59EAFD1-B2B1-46A3-979A-C36457E7CA89}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CC91B15-791F-49FC-AB53-9D225925DB2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CC91B15-791F-49FC-AB53-9D225925DB2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CC91B15-791F-49FC-AB53-9D225925DB2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CC91B15-791F-49FC-AB53-9D225925DB2C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
